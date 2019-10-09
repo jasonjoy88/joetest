@@ -1,0 +1,14 @@
+{
+    "name": "joe_test/test",
+    "description": "just test",
+    "type": "project",
+    "license": "joe",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\" : "src/test"
+        }
+    }
+}
